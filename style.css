@@ -1,0 +1,38 @@
+.box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-image: url(https://images.unsplash.com/photo-1634643836960-c345b3c3e998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.card-box{
+    margin: 20px auto;
+    margin-left: 200px;
+}
+
+
+.btn-gradient-1 {
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    box-shadow: 5px 10px 8px 10px #888888;
+    /* border-image: linear-gradient(to right, darkblue, darkorchid) 1; */
+}
+  
+#text-h5{
+    font-size: 30px;
+    font-weight: 600;
+    color: #233142;
+}
+
+#showClock{
+    font-size: 40px;
+    font-weight: bolder;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+    /* background-clip: border-box; */
+	-webkit-text-fill-color: transparent;
+}
